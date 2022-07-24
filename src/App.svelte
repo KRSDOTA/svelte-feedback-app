@@ -1,6 +1,10 @@
 <script lang="ts">
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+
+  const firstName: string = 'something';
+
+  $: name = firstName;
 </script>
 
 <main>
@@ -18,6 +22,11 @@
     Check out <a href="https://github.com/sveltejs/kit#readme">SvelteKit</a> for
     the officially supported framework, also powered by Vite!
   </p>
+
+  <p>
+    {name}
+  </p>
+
 </main>
 
 <style>
