@@ -1,6 +1,7 @@
 <script lang="ts">
   import logo from './assets/svelte.png'
   import Counter from './lib/Counter.svelte'
+  import Pad from './lib/Pad.svelte'
 
   const firstName: string = 'something';
 
@@ -11,6 +12,7 @@
   <img src={logo} alt="Svelte Logo" />
   <h1>Hello Typescript!</h1>
 
+  <Pad />
   <Counter />
 
   <p>

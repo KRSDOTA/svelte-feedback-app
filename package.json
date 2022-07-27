@@ -20,6 +20,7 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "acron": "^1.0.5",
     "paper": "^0.12.15"
   }
 }
